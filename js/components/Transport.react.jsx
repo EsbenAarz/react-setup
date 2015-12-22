@@ -25,7 +25,7 @@ module.exports = React.createClass({
     },
 
     fetchData: function() {
-    	var fetchURL = 'http://reisapi.ruter.no/StopVisit/GetDepartures/' + HOLDEPLASS_ID.trikk;
+    	var fetchURL = 'https://reisapi.ruter.no/StopVisit/GetDepartures/' + HOLDEPLASS_ID.trikk;
         var that = this;
         fetchJsonp(fetchURL, {
         	accept: 'application/json'

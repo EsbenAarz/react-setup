@@ -11,8 +11,7 @@ module.exports = React.createClass({
         };
     },
     componentDidMount: function(){
-        var API_KEY = '4566b83e4327f7e3feb2c22bb8faf53a',
-            fetchURL = 'http://api.openweathermap.org/data/2.5/weather?q=Oslo,no&units=metric&appid=' + API_KEY;
+        var fetchURL = '/weather';
         var that = this;
         fetch(fetchURL).then(function(response) {
             return response.json();
@@ -35,7 +34,6 @@ module.exports = React.createClass({
             'sun': self.state.weatherId === 800,
             'clouds': self.state.weatherId >= 801
         });
-        window.console.log(self.state.temperature);
         return <div className={_class}>
             <Temperature temperature = {self.state.temperature} />
         </div>

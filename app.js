@@ -5,19 +5,19 @@ var express = require('express');
 var app = express();
 var ruter = require('./mockdata/ruter.json');
 var weather = require('./mockdata/weather.json');
+var request = require('request');
+
 app.use(express.static('dist'));
 app.use(express.static('public'));
 
 app.get('/hello', function(req, res) {
-	
     return res.send('world');
 });
 
-app.get(
-	'http://api.openweathermap.org/data/2.5/weather?q=Bergen,no&units=metric&appid=4566b83e4327f7e3feb2c22bb8faf53a', 
-	function(req, res) {
-		console.log('Using local file');
-		return res.send(weather);
+app.get('/weather', function(req, res) {
+	req.
+		pipe(request('http://api.openweathermap.org/data/2.5/weather?q=Oslo,no&units=metric&appid=4566b83e4327f7e3feb2c22bb8faf53a')).
+		pipe(res);
 });
 
 app.get(

@@ -1,0 +1,41 @@
+{
+    "coord": {
+        "lon": 5.33,
+        "lat": 60.39
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 9,
+        "pressure": 990,
+        "humidity": 81,
+        "temp_min": 9,
+        "temp_max": 9
+    },
+    "wind": {
+        "speed": 5.1,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1450801200,
+    "sys": {
+        "type": 1,
+        "id": 5280,
+        "message": 0.0048,
+        "country": "NO",
+        "sunrise": 1450773906,
+        "sunset": 1450794588
+    },
+    "id": 3161733,
+    "name": "Bergen",
+    "cod": 200
+}

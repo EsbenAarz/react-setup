@@ -1,0 +1,3243 @@
+jsonp_1450803906012_66859([
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "13904"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT298S",
+            "TrainBlockPart": null,
+            "BlockRef": "1806",
+            "VehicleRef": "200148",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:02:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:06:58+01:00",
+                "AimedDepartureTime": "2015-12-22T18:02:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:06:58+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14104"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1807",
+            "VehicleRef": "200164",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29242",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:12:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:12:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:12:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:12:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": true,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15404"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT343S",
+            "TrainBlockPart": null,
+            "BlockRef": "1704",
+            "VehicleRef": "200157",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28121",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:07:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:12:43+01:00",
+                "AimedDepartureTime": "2015-12-22T18:07:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:12:43+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14604"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT246S",
+            "TrainBlockPart": null,
+            "BlockRef": "1804",
+            "VehicleRef": "200154",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28898",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T18:10:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:14:06+01:00",
+                "AimedDepartureTime": "2015-12-22T18:10:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:14:06+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15904"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT129S",
+            "TrainBlockPart": null,
+            "BlockRef": "1702",
+            "VehicleRef": "200159",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28231",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:15:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:17:09+01:00",
+                "AimedDepartureTime": "2015-12-22T18:15:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:17:09+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": true,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15604"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT160S",
+            "TrainBlockPart": null,
+            "BlockRef": "1705",
+            "VehicleRef": "200146",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28120",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:17:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:19:40+01:00",
+                "AimedDepartureTime": "2015-12-22T18:17:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:19:40+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14804"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1805",
+            "VehicleRef": "200161",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28897",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T18:20:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:20:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:20:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:20:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14804"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT2804S",
+            "TrainBlockPart": null,
+            "BlockRef": "1701",
+            "VehicleRef": "200150",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T17:37:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:23:44.278+01:00",
+                "AimedDepartureTime": "2015-12-22T17:37:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:23:44.278+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16104"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1703",
+            "VehicleRef": "200162",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28230",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:25:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:25:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:25:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:25:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15804"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1706",
+            "VehicleRef": "200160",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28119",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:27:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:27:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:27:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:27:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15004"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1806",
+            "VehicleRef": "200148",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28896",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T18:30:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:30:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:30:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:30:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14304"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT532S",
+            "TrainBlockPart": null,
+            "BlockRef": "1808",
+            "VehicleRef": "200166",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29241",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:22:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:30:52+01:00",
+                "AimedDepartureTime": "2015-12-22T18:22:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:30:52+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16304"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1704",
+            "VehicleRef": "200157",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28537",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:35:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:35:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:35:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:35:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16004"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1707",
+            "VehicleRef": "200165",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28118",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:37:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:37:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:37:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:37:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": true,
+                "OccupancyPercentage": 20
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14504"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT378S",
+            "TrainBlockPart": null,
+            "BlockRef": "1809",
+            "VehicleRef": "200149",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29240",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:32:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:38:18+01:00",
+                "AimedDepartureTime": "2015-12-22T18:32:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:38:18+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15104"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1807",
+            "VehicleRef": "200164",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28895",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T18:40:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:40:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:40:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:40:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": true,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14704"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1810",
+            "VehicleRef": "200156",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29239",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:42:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:42:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:42:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:42:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15704"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT2294S",
+            "TrainBlockPart": null,
+            "BlockRef": "1701",
+            "VehicleRef": "200150",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28232",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:05:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:43:14.278+01:00",
+                "AimedDepartureTime": "2015-12-22T18:05:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:43:14.278+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16504"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1705",
+            "VehicleRef": "200146",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28229",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:45:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:45:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:45:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:45:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15404"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1808",
+            "VehicleRef": "200166",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28894",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T18:50:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:50:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:50:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:50:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16204"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT319S",
+            "TrainBlockPart": null,
+            "BlockRef": "1708",
+            "VehicleRef": "200143",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28117",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:47:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:52:19+01:00",
+                "AimedDepartureTime": "2015-12-22T18:47:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:52:19+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "14904"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Ljabru [trikk]",
+            "OriginRef": "3010870",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT130S",
+            "TrainBlockPart": null,
+            "BlockRef": "1811",
+            "VehicleRef": "200172",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29238",
+            "MonitoredCall": {
+                "VisitNumber": 20,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:52:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:54:10+01:00",
+                "AimedDepartureTime": "2015-12-22T18:52:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:54:10+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16704"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1706",
+            "VehicleRef": "200160",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28568",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T18:55:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:55:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:55:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:55:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "2",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16404"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "2",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Grefsen stasjon [trikk]",
+            "OriginRef": "3012111",
+            "DestinationRef": 3012324,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1709",
+            "VehicleRef": "200147",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28116",
+            "MonitoredCall": {
+                "VisitNumber": 18,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T18:57:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T18:57:00+01:00",
+                "AimedDepartureTime": "2015-12-22T18:57:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T18:57:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "15604"
+            },
+            "PublishedLineName": "18",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3010870,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1809",
+            "VehicleRef": "200149",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28893",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T19:00:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:00:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:00:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:00:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29237",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:02:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:02:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:02:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:02:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "2015-12-22T18:05:05.59+01:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": "1",
+            "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2015-12-22",
+                "DatedVehicleJourneyRef": "16904"
+            },
+            "PublishedLineName": "17",
+            "DirectionName": "1",
+            "OperatorRef": "Sporvognsdrift",
+            "OriginName": "Rikshospitalet",
+            "OriginRef": "3012324",
+            "DestinationRef": 3012111,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": true,
+            "InCongestion": false,
+            "Delay": "PT0S",
+            "TrainBlockPart": null,
+            "BlockRef": "1707",
+            "VehicleRef": "200165",
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28228",
+            "MonitoredCall": {
+                "VisitNumber": 9,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T19:05:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:05:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:05:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:05:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": "lowFloor"
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": true,
+                "OccupancyPercentage": 20
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28115",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:07:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:07:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:07:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:07:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28601",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T19:10:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:10:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:10:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:10:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29236",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:12:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:12:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:12:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:12:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28567",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T19:15:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:15:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:15:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:15:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28114",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:17:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:17:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:17:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:17:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28600",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T19:20:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:20:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:20:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:20:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29235",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:22:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:22:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:22:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:22:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28113",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:27:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:27:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:27:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:27:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28562",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T19:31:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:31:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:31:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:31:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29225",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:32:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:32:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:32:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:32:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28599",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T19:41:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:41:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:41:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:41:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28112",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:42:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:42:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:42:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:42:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28505",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T19:51:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:51:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:51:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:51:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29224",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T19:52:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T19:52:00+01:00",
+                "AimedDepartureTime": "2015-12-22T19:52:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T19:52:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28598",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T20:01:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:01:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:01:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:01:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28111",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:02:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:02:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:02:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:02:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28504",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T20:11:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:11:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:11:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:11:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29223",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:12:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:12:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:12:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:12:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28597",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T20:21:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:21:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:21:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:21:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28110",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:22:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:22:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:22:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:22:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28503",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T20:31:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:31:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:31:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:31:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29222",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:32:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:32:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:32:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:32:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28596",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T20:41:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:41:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:41:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:41:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28109",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:42:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:42:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:42:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:42:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28502",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T20:51:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:51:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:51:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:51:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29221",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T20:52:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T20:52:00+01:00",
+                "AimedDepartureTime": "2015-12-22T20:52:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T20:52:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28595",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T21:01:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:01:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:01:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:01:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28108",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T21:02:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:02:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:02:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:02:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28501",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T21:11:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:11:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:11:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:11:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29220",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T21:12:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:12:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:12:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:12:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28594",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T21:21:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:21:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:21:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:21:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28107",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T21:22:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:22:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:22:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:22:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "17",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "17",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Sinsen-Grefsen stasjon",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28500",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Sinsen-Grefsen stasjon",
+                "AimedArrivalTime": "2015-12-22T21:31:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:31:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:31:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:31:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34610,
+                    "Header": "Trikk 17: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Rikshospitalet",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "29219",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Rikshospitalet",
+                "AimedArrivalTime": "2015-12-22T21:32:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:32:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:32:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:32:00+01:00",
+                "DeparturePlatformName": "12"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    },
+    {
+        "RecordedAtTime": "0001-01-01T00:00:00",
+        "MonitoringRef": "3010312",
+        "MonitoredVehicleJourney": {
+            "LineRef": "18",
+            "DirectionRef": null,
+            "FramedVehicleJourneyRef": null,
+            "PublishedLineName": "18",
+            "DirectionName": null,
+            "OperatorRef": null,
+            "OriginName": null,
+            "OriginRef": null,
+            "DestinationRef": 0,
+            "DestinationName": "Ljabru",
+            "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+            "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+            "Monitored": false,
+            "InCongestion": false,
+            "Delay": null,
+            "TrainBlockPart": null,
+            "BlockRef": null,
+            "VehicleRef": null,
+            "VehicleMode": 3,
+            "VehicleJourneyName": "28593",
+            "MonitoredCall": {
+                "VisitNumber": 0,
+                "VehicleAtStop": false,
+                "DestinationDisplay": "Ljabru",
+                "AimedArrivalTime": "2015-12-22T21:41:00+01:00",
+                "ExpectedArrivalTime": "2015-12-22T21:41:00+01:00",
+                "AimedDepartureTime": "2015-12-22T21:41:00+01:00",
+                "ExpectedDepartureTime": "2015-12-22T21:41:00+01:00",
+                "DeparturePlatformName": "11"
+            },
+            "VehicleFeatureRef": null
+        },
+        "Extensions": {
+            "IsHub": false,
+            "OccupancyData": {
+                "OccupancyAvailable": false,
+                "OccupancyPercentage": 0
+            },
+            "Deviations": [
+                {
+                    "ID": 34612,
+                    "Header": "Trikk 18: Forsinkelser etter tidligere strømstans"
+                }
+            ],
+            "LineColour": "41BECD"
+        }
+    }
+])
+

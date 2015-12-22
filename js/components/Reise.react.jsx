@@ -1,5 +1,6 @@
 var React = require('react'),
-    classNames  = require('classnames');
+    classNames  = require('classnames'),
+    dateformat = require('dateformat');
 
 
 module.exports = React.createClass({
@@ -12,20 +13,26 @@ module.exports = React.createClass({
     },
     componentDidMount: function(){
         this.setState({
-            destinasjon: props.destinasjon,
-            departureTime: props.departureTime
+            destinasjon: this.props.destinasjon,
+            departureTime: this.formatTime(this.props.departureTime)
         });
     },
     componentWillReceiveProps : function(props){
         this.setState({
-            destinasjon: props.destinasjon,
-            departureTime: props.departureTime
+            destinasjon: this.props.destinasjon,
+            departureTime: this.formatTime(this.props.departureTime)
         });
     },
-
+    formatTime: function(timestamp){
+        var date = new Date(timestamp);
+        if(!timestamp) {
+            date = new Date();
+        }
+        return dateformat(date, 'HH:MM:ss');
+    },
     render: function() {
         return <li>
-            		<div>Til: {this.state.destinasjon}</div>
+            		<div>{this.state.destinasjon}</div>
             		<div>Avreise: {this.state.departureTime} </div>
             	</li>
     }

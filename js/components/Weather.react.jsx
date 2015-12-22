@@ -7,12 +7,12 @@ module.exports = React.createClass({
     getInitialState: function() {
         return {
             temperature: -1,
-            weatherId: 'rain'
+            weatherId: '500'
         };
     },
     componentDidMount: function(){
         var API_KEY = '4566b83e4327f7e3feb2c22bb8faf53a',
-            fetchURL = 'http://api.openweathermap.org/data/2.5/weather?q=Bergen,no&units=metric&appid=' + API_KEY;
+            fetchURL = 'http://api.openweathermap.org/data/2.5/weather?q=Oslo,no&units=metric&appid=' + API_KEY;
         var that = this;
         fetch(fetchURL).then(function(response) {
             return response.json();

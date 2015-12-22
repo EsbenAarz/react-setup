@@ -4,6 +4,20 @@ html, body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 10px 0;
+	border-top: 1px solid #df565b;
+}
+
+li:last-child {
+	border-bottom: 1px solid #df565b;
+}
+
 #app {
 	height: 100%;
 	position: relative;
@@ -36,22 +50,40 @@ html, body {
 	background-image: url('/assets/snow.jpg')
 }
 
-
 .temperature-box {
 	position: absolute;
-	left: 10%;
-	top: 100px;
+	left: 5%;
+	bottom: 5%;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	background-color: #1a1a1a;
-	color: #ffffff;
 	display: table;
 }
 .temperature {
-	color: #ffffff;
+	color: #c6c8ca;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2.5rem;
+}
+
+.transport {
+	z-index: 2;
+	position: absolute;
+	right: 10%;
+	top: 10px;
+	color: #c6c8ca;
+	background-color: #1a1a1a;
+	padding: 32px;
+	border-radius: 10px;
+
+}
+
+.transport li {
+	list-style: none;
+}
+
+.placemark {
+	
 }

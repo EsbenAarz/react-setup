@@ -12,15 +12,20 @@ module.exports = React.createClass({
     
     getInitialState: function() {
         return {
-            fremtidigeReiser: [{
-            	destinasjon: '',
-            	departureTime: ''
-            }]
+            fremtidigeReiser: []
         };
     },
     componentDidMount: function(){
-    	
-        var fetchURL = 'http://reisapi.ruter.no/StopVisit/GetDepartures/' + HOLDEPLASS_ID.trikk;
+    	this.timer = setInterval(this.fetchData, 60000);
+    	this.fetchData();
+    },
+
+    componentDidUnmount: function() {
+    	clearInterval(this.timer);
+    },
+
+    fetchData: function() {
+    	var fetchURL = 'http://reisapi.ruter.no/StopVisit/GetDepartures/' + HOLDEPLASS_ID.trikk;
         var that = this;
         fetchJsonp(fetchURL, {
         	accept: 'application/json'
@@ -28,12 +33,13 @@ module.exports = React.createClass({
             return response.json();
         }).then(function(data) {
         	var reiser = [];
-        	data.forEach(function(journey) {
+        	data.slice(0,10).forEach(function(journey) {
         		reiser.push({
         			destinasjon: journey.MonitoredVehicleJourney.DestinationName,
         			departureTime: journey.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime,
-        		})
+        		});
         	});
+        	window.console.log('Reiser: ', reiser);
         	that.setState({
         		fremtidigeReiser: reiser
         	});
@@ -41,8 +47,10 @@ module.exports = React.createClass({
     },
 
     render: function() {
-    	window.console.log(this.state.fremtidigeReiser);
-        return <div>
+    	if (this.state.fremtidigeReiser.length === 0) {
+    		return <div></div>
+    	}
+        return <div className="transport">
             <ul>
             	{this.state.fremtidigeReiser.map(function(reise) {
             		return <Reise destinasjon={reise.destinasjon} departureTime={reise.departureTime}/>
@@ -50,5 +58,4 @@ module.exports = React.createClass({
             </ul>
         </div>
     }
-
 });

@@ -2,7 +2,8 @@
   "name": "mentometer",
   "private": true,
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "gulp build && node app.js"
   },
   "dependencies": {
     "classnames": "^2.2.1",

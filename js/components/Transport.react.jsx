@@ -8,15 +8,18 @@ var HOLDEPLASS_ID = {
 	buss: '3010311'
 };
 
+var FETCH_RUTER_INTERVAL = 60000; //60 sec
+
 module.exports = React.createClass({
     
     getInitialState: function() {
         return {
-            fremtidigeReiser: []
+            fremtidigeReiser: [],
+            error: false
         };
     },
     componentDidMount: function(){
-    	this.timer = setInterval(this.fetchData, 60000);
+    	this.timer = setInterval(this.fetchData, FETCH_RUTER_INTERVAL);
     	this.fetchData();
     },
 
@@ -41,9 +44,15 @@ module.exports = React.createClass({
         	});
         	window.console.log('Reiser: ', reiser);
         	that.setState({
-        		fremtidigeReiser: reiser
+        		fremtidigeReiser: reiser,
+        		error: false
         	});
-        });
+        }).catch(err) {
+        	that.setState({
+        		fremtidigeReiser: [],
+        		error: true
+        	});
+        };
     },
 
     render: function() {
@@ -55,6 +64,14 @@ module.exports = React.createClass({
             	{this.state.fremtidigeReiser.map(function(reise) {
             		return <Reise destinasjon={reise.destinasjon} departureTime={reise.departureTime}/>
             	})}
+            </ul>
+        </div>
+    },
+    renderErrorMessage: function () {
+    	return <div className="transport">
+            <ul>
+            	<li>En feil har oppstått ved lasting av ruter </li>
+            	<li>{this.state.error}</li>
             </ul>
         </div>
     }

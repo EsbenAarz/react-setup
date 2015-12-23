@@ -24,10 +24,7 @@ module.exports = React.createClass({
         });
     },
     formatTime: function(timestamp){
-        var date = new Date(timestamp);
-        if(!timestamp) {
-            date = new Date();
-        }
+        var date = timestamp ? new Date(timestamp) : new Date();
         return dateformat(date, 'HH:MM:ss');
     },
     render: function() {

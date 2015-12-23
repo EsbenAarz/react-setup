@@ -4,10 +4,12 @@ var Transport = require('./Transport.react.jsx');
 module.exports = React.createClass({
 
     render: function() {
-        return <div>
+        return <div className="container">
             <Weather/>
+            <div className="transportContainer">
             <Transport trikk="true"/>
             <Transport buss="true"/>
+            </div>
         </div>
     }
 

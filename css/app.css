@@ -1,14 +1,16 @@
 html, body {
-    height: 100%;
     margin: 0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 ul, li {
 	margin: 0;
 	padding: 0;
 }
-
+ul {
+	padding: 32px;
+}
 li {
 	padding: 10px 0;
 	border-top: 1px solid #df565b;
@@ -18,12 +20,12 @@ li:last-child {
 	border-bottom: 1px solid #df565b;
 }
 
-#app {
+#app, .container {
 	height: 100%;
 	position: relative;
 }
 .weather {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -80,8 +82,8 @@ li:last-child {
 .transport {	
 	min-width: 170px;
 	position: absolute;
-	padding: 32px;
 	border-radius: 10px;
+	bottom: 0;
 }
 .transport.buss {
 	right: 5%;
@@ -91,15 +93,17 @@ li:last-child {
 }
 
 @media(max-width: 740px) {
+	.transportContainer {
+		padding-top: 200px;
+	}
 	.transport {
-		top: 200px;
-		width: 40%;
-		padding: 32px 32px;
+		position: relative;
+		width: 50%;
+		display: inline-block;
 		border-radius: 0;
 	}
 	.transport.buss {
 		right: 0;
-		text-align: right;
 	}
 	.transport.trikk {
 		left: 0;
@@ -108,7 +112,12 @@ li:last-child {
 		top: 0;
 		bottom: auto;
 	}
+}
 
+@media(max-width: 460px) {
+	.transport {
+		width: 100%;
+	}
 }
 
 .transport {

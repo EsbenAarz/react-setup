@@ -21,10 +21,12 @@ module.exports = React.createClass({
     },
     render: function() {
         return <div className="temperature-box">
-            <div className="temperature">
-                {this.state.temperature} &deg;C
+                <div className="temperature-outer">
+                    <div className="temperature">
+                        {this.state.temperature} &deg;C
+                    </div>
+                </div>
             </div>
-        </div>
     }
 
 });

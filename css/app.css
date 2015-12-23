@@ -52,14 +52,20 @@ li:last-child {
 
 .temperature-box {
 	position: absolute;
-	left: 44%;
+	left: 0;
 	bottom: 5%;
+	right: 0;
+}
+
+.temperature-outer {
+	margin: 0 auto;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	background-color: #1a1a1a;
 	display: table;
 }
+
 .temperature {
 	color: #c6c8ca;
 	display: table-cell;

@@ -30,7 +30,7 @@ module.exports = React.createClass({
     render: function() {
         return <li>
             		<div>{this.state.destinasjon}</div>
-            		<div>Avreise: {this.state.departureTime} </div>
+            		<div>{this.state.departureTime} </div>
             	</li>
     }
 

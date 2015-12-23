@@ -28,7 +28,8 @@ li:last-child {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-size: 100% 100%;
+	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .rain {
@@ -50,20 +51,15 @@ li:last-child {
 	background-image: url('/assets/snow.jpg')
 }
 
+.temperature-outer {
+	background-color: #1a1a1a;
+	display: table;
+}
 .temperature-box {
 	position: absolute;
 	left: 0;
 	bottom: 5%;
 	right: 0;
-}
-
-.temperature-outer {
-	margin: 0 auto;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	background-color: #1a1a1a;
-	display: table;
 }
 
 .temperature {
@@ -74,16 +70,19 @@ li:last-child {
 	font-size: 2.5rem;
 }
 
-.transport {
-	z-index: 2;
+.temperature-outer {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.transport {	
+	min-width: 170px;
 	position: absolute;
-	top: 10px;
-	color: #c6c8ca;
-	background-color: #1a1a1a;
 	padding: 32px;
 	border-radius: 10px;
 }
-
 .transport.buss {
 	right: 5%;
 }
@@ -91,10 +90,33 @@ li:last-child {
 	left: 5%;
 }
 
-.transport li {
-	list-style: none;
+@media(max-width: 740px) {
+	.transport {
+		top: 200px;
+		width: 40%;
+		padding: 32px 32px;
+		border-radius: 0;
+	}
+	.transport.buss {
+		right: 0;
+		text-align: right;
+	}
+	.transport.trikk {
+		left: 0;
+	}
+	.temperature-box {
+		top: 0;
+		bottom: auto;
+	}
+
 }
 
-.placemark {
-	
+.transport {
+	z-index: 2;
+	color: #c6c8ca;
+	background-color: #1a1a1a;
+}
+
+.transport li {
+	list-style: none;
 }

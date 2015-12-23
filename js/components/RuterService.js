@@ -12,6 +12,7 @@ var hentData =  function(holdePlassId) {
     return fetchJsonp(FETCH_URL, options)
             .then(toJSON)
             .then(function(data) {
+                window.console.log(data);
                 return hentNesteReiser(data, 10);
             }).catch(errorHandler);
     },
@@ -25,6 +26,7 @@ var hentData =  function(holdePlassId) {
             reiser.push({
                 destinasjon: journey.MonitoredVehicleJourney.DestinationName,
                 departureTime: journey.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime,
+                retning: journey.MonitoredVehicleJourney.DirectionRef
             });
         });
         return {

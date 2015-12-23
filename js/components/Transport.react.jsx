@@ -52,11 +52,22 @@ module.exports = React.createClass({
     		trikk: that.props.trikk,
     		buss: that.props.buss
     	});
+    	
+    	var filtrerForDestinasjon = function(reise){
+    		window.console.log(reise);
+    		return reise.retning === "1";
+    	}
+    	var filtrerForDestinasjon2 = function(reise) {
+    		return reise.retning === "2";	
+    	}
+    	var renderReise = function(reise) {
+    		return <Reise destinasjon={reise.destinasjon} departureTime={reise.departureTime}/>
+    	}
         return <div className={classes}>
             <ul>
-            	{this.state.fremtidigeReiser.map(function(reise) {
-            		return <Reise destinasjon={reise.destinasjon} departureTime={reise.departureTime}/>
-            	})}
+            	{this.state.fremtidigeReiser.filter(filtrerForDestinasjon).map(renderReise)}
+            	<li></li>
+            	{this.state.fremtidigeReiser.filter(filtrerForDestinasjon2).map(renderReise)}
             </ul>
         </div>
     },

@@ -91,7 +91,11 @@ li:last-child {
 .transport.trikk {
 	left: 5%;
 }
-
+@media(min-width: 741px) {
+	.transport {
+		min-width: 228px;
+	}
+}
 @media(max-width: 740px) {
 	.transportContainer {
 		padding-top: 200px;

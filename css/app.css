@@ -52,7 +52,7 @@ li:last-child {
 
 .temperature-box {
 	position: absolute;
-	left: 5%;
+	left: 44%;
 	bottom: 5%;
 	width: 200px;
 	height: 200px;
@@ -71,13 +71,18 @@ li:last-child {
 .transport {
 	z-index: 2;
 	position: absolute;
-	right: 10%;
 	top: 10px;
 	color: #c6c8ca;
 	background-color: #1a1a1a;
 	padding: 32px;
 	border-radius: 10px;
+}
 
+.transport.buss {
+	right: 5%;
+}
+.transport.trikk {
+	left: 5%;
 }
 
 .transport li {

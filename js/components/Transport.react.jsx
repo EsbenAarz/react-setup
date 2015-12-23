@@ -1,6 +1,7 @@
 var React = require('react'),
-    classNames  = require('classnames'),
-    fetchJsonp = require('fetch-jsonp'),
+    classnames  = require('classnames'),
+    
+    RuterService = require('./RuterService.js'),
     Reise = require('./Reise.react.jsx');
 
 var HOLDEPLASS_ID = {
@@ -28,38 +29,30 @@ module.exports = React.createClass({
     },
 
     fetchData: function() {
-    	var fetchURL = 'https://reisapi.ruter.no/StopVisit/GetDepartures/' + HOLDEPLASS_ID.trikk;
-        var that = this;
-        fetchJsonp(fetchURL, {
-        	accept: 'application/json'
-        }).then(function(response) {
-            return response.json();
-        }).then(function(data) {
-        	var reiser = [];
-        	data.slice(0,10).forEach(function(journey) {
-        		reiser.push({
-        			destinasjon: journey.MonitoredVehicleJourney.DestinationName,
-        			departureTime: journey.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime,
-        		});
-        	});
-        	window.console.log('Reiser: ', reiser);
-        	that.setState({
-        		fremtidigeReiser: reiser,
-        		error: false
-        	});
-        }).catch(err) {
-        	that.setState({
-        		fremtidigeReiser: [],
-        		error: true
-        	});
-        };
+    	var that = this;
+    	if (that.props.trikk) {
+    		RuterService.hentTrikker().then(function(state) {
+    			that.setState(state)
+    		});	
+    	} else if (that.props.buss) {
+    		RuterService.hentBusser().then(function(state) {
+    			that.setState(state)
+    		});	
+    	}
+    	
     },
 
     render: function() {
+    	var that = this;
     	if (this.state.fremtidigeReiser.length === 0) {
     		return <div></div>
     	}
-        return <div className="transport">
+    	var classes = classnames({
+    		transport: true,
+    		trikk: that.props.trikk,
+    		buss: that.props.buss
+    	});
+        return <div className={classes}>
             <ul>
             	{this.state.fremtidigeReiser.map(function(reise) {
             		return <Reise destinasjon={reise.destinasjon} departureTime={reise.departureTime}/>

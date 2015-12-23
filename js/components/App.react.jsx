@@ -6,7 +6,8 @@ module.exports = React.createClass({
     render: function() {
         return <div>
             <Weather/>
-            <Transport/>
+            <Transport trikk="true"/>
+            <Transport buss="true"/>
         </div>
     }
 

@@ -31,7 +31,7 @@ var SleepColumns = React.createClass({
                 endHours: moment(sleep.end_time).format('HH:mm')
             }
         }).map(function(sleep) {
-            return <div> {sleep.startDate} - {sleep.startHours} til {sleep.endDate} - {sleep.endHours}</div>;
+            return <div className="data-container--element"> {sleep.startDate} - {sleep.startHours} til {sleep.endDate} - {sleep.endHours}</div>;
         });
         return <div className="data-container--column sleep">
             <h3> Sleep </h3>

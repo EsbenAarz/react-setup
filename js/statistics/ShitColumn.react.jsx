@@ -29,7 +29,7 @@ var ShitColumn = React.createClass({
                 hours: moment(shit.start_time).format('HH:mm')
             }
         }).map(function(shit) {
-            return <div> {shit.date} - {shit.hours} </div>;
+            return <div className="data-container--element"> {shit.date} - {shit.hours} </div>;
         });
         return <div className="data-container--column poop">
             <h3> Shit </h3>

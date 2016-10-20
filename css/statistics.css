@@ -26,8 +26,18 @@
 .data-container--column {
     vertical-align: top;
     display: inline-block;
-    width: 25%;
+    width: 100%;
     margin: 20px;
+}
+
+@media(min-width: 560px) {
+    .data-container--column {
+        width: 25%;
+    }
+}
+
+.data-container--element {
+    margin: 5px 0;
 }
 
 input[type="submit"] {

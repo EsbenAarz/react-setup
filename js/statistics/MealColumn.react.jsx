@@ -29,7 +29,7 @@ var MealColumn = React.createClass({
                 hours: moment(meal.start_time).format('HH:mm')
             }
         }).map(function(meal) {
-            return <div> {meal.date} - {meal.hours} </div>;
+            return <div className="data-container--element"> {meal.date} - {meal.hours} </div>;
         });
         return <div className="data-container--column meals">
             <h3> Meals </h3>

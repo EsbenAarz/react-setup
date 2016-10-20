@@ -31,11 +31,11 @@
     "run-sequence": "^1.0.1",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.1.1",
-    "whatwg-fetch": "^0.10.1"
+    "whatwg-fetch": "^0.10.1",
+    "body-parser": "^1.15.2",
+    "pg": "^6.1.0"
   },
   "devDependencies": {
-    "body-parser": "^1.15.2",
-    "momentjs": "^1.1.17",
-    "pg": "^6.1.0"
+    "momentjs": "^1.1.17"
   }
 }

@@ -79,7 +79,7 @@ li:last-child {
 	border-radius: 50%;
 }
 
-.transport {	
+.transport {
 	min-width: 170px;
 	position: absolute;
 	border-radius: 10px;
@@ -133,3 +133,5 @@ li:last-child {
 .transport li {
 	list-style: none;
 }
+
+@import url("statistics.css");

@@ -4,7 +4,6 @@ var express = require('express');
 
 var app = express();
 var ruter = require('./mockdata/ruter.json');
-var weather = require('./mockdata/weather.json');
 var request = require('request');
 
 app.use(express.static('dist'));
@@ -21,9 +20,15 @@ app.get('/weather', function(req, res) {
 });
 
 app.get(
-	'http://reisapi.ruter.no/StopVisit/GetDepartures/3010312', 
+	'http://reisapi.ruter.no/StopVisit/GetDepartures/3010312',
 	function(req, res) {
 		return res.jsonp(ruter);
+});
+
+app.get('/stats', function(req, res) {
+    return res.sendFile('statistics.html', {
+        root: __dirname + '/public'
+    });
 });
 
 app.use(function(err, req, res, next) {

@@ -1,5 +1,7 @@
 var React = require('react');
 var moment = require('momentjs');
+var getTimestamp = require('./get-timestamp');
+var restService = require('./RestService');
 
 module.exports = React.createClass({
     getInitialState: function(){
@@ -9,29 +11,22 @@ module.exports = React.createClass({
         }
     },
     onSubmit: function(e){
-        window.console.log(this.state);
         e.preventDefault();
+        restService.postSleep(this.state.startTime, this.state.endTime);
     },
     onStartTimeChanged: function(e){
         var that = this;
         this.setState({
-            startTime: that.getTimestamp(e)
+            startTime: getTimestamp(e)
         });
     },
     onEndTimeChanged: function(e){
         var that = this;
         this.setState({
-            endTime: that.getTimestamp(e)
+            endTime: getTimestamp(e)
         });
     },
-    getTimestamp: function(e) {
-        var time = e.target.value;
-        var minutes = time.split(':')[1];
-        var hours = time.split(':')[0];
-        var _moment = new moment().minutes(minutes).hours(hours);
-        window.console.log(_moment);
-        return _moment;
-    },
+
     render: function(){
         return <div className="register">
             <h2>Har han/hun sovet?</h2>

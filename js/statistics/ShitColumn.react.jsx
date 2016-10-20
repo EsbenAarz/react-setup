@@ -1,4 +1,6 @@
 var React = require('react');
+var moment = require('momentjs');
+var restService = require('./RestService');
 
 var ShitColumn = React.createClass({
     getInitialState: function(){
@@ -6,11 +8,10 @@ var ShitColumn = React.createClass({
             poops: []
         };
     },
-    fetchPoops: function(){
+
+    fetchShit: function(){
         var that = this;
-        fetch('/poops').then(function(res) {
-            return res.json();
-        }).then(function(poops){
+        restService.fetchShit().then(function(poops){
             that.setState({
                 poops: poops
             });
@@ -18,12 +19,17 @@ var ShitColumn = React.createClass({
     },
 
     componentDidMount: function(){
-        this.fetchPoops();
+        this.fetchShit();
     },
 
     render: function(){
-        var shitRows = this.state.poops.map(function(shit) {
-            return <div className="data-container--value">{shit.start_time}</div>
+        var shitRows = this.state.poops.map(function(shit){
+            return {
+                date: moment(shit.start_time).format('DD.MM-YYYY'),
+                hours: moment(shit.start_time).format('HH:mm')
+            }
+        }).map(function(shit) {
+            return <div> {shit.date} - {shit.hours} </div>;
         });
         return <div className="data-container--column poop">
             <h3> Shit </h3>

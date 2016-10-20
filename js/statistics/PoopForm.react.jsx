@@ -2,6 +2,7 @@ var React = require('react');
 var getTimestamp = require('./get-timestamp');
 var moment = require('momentjs');
 require('whatwg-fetch');
+var restService = require('./RestService');
 
 module.exports = React.createClass({
     getInitialState: function(){
@@ -16,17 +17,7 @@ module.exports = React.createClass({
     },
     onSubmit: function(e){
         e.preventDefault();
-        fetch('/poops', {
-            method: 'POST',
-            body: JSON.stringify(this.state.startTime),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }).then(function(res) {
-            if (res.status === 204) {
-                console.log('Yippi');
-            }
-        });
+        restService.postShit(this.state.startTime);
     },
     render: function(){
         return <div className="register">

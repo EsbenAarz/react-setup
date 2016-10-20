@@ -73,7 +73,7 @@ app.post('/poops', function (request, response) {
             response.end();
         });
     });
-})
+});
 
 app.get('/eat', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
@@ -89,6 +89,22 @@ app.get('/eat', function (request, response) {
   });
 });
 
+app.post('/eat', function (request, response) {
+    console.log(JSON.stringify(request.body));
+    console.log('POST Received to eat: ' + request.body._date);
+    var startTime = request.body._date;
+    pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+        client.query('INSERT INTO eat ("start_time") VALUES (\'' + startTime + '\')', function(err, result){
+            if (err) {
+                console.log(err);
+            }
+            done();
+            response.writeHead(204);
+            response.end();
+        });
+    });
+});
+
 app.get('/sleep', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
     client.query('SELECT * FROM sleep', function(err, result) {
@@ -101,6 +117,22 @@ app.get('/sleep', function (request, response) {
       }
     });
   });
+});
+
+app.post('/sleep', function (request, response) {
+    console.log(JSON.stringify(request.body));
+    var startTime = request.body.startTime._date;
+    var endTime = request.body.endTime._date;
+    pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+        client.query('INSERT INTO sleep ("start_time", "end_time") VALUES (\'' + startTime + '\', \'' + endTime + '\')', function(err, result){
+            if (err) {
+                console.log(err);
+            }
+            done();
+            response.writeHead(204);
+            response.end();
+        });
+    });
 });
 
 app.use(function(err, req, res, next) {

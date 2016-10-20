@@ -1,13 +1,12 @@
 var React = require('react');
+require('whatwg-fetch');
+
+var ShitColumn = require('./ShitColumn.react');
 
 module.exports = React.createClass({
     render: function(){
         return <div className="data-container">
-                <div className="data-container--column poop">
-                    <h3> Shit </h3>
-                    <div className="data-container--value">1021</div>
-                    <div className="data-container--value">1023</div>
-                </div>
+                <ShitColumn />
                 <div className="data-container--column eat">
                     <h3> Eat </h3>
                     <div className="data-container--value">1000-1020</div>

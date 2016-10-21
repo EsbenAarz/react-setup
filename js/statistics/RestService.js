@@ -6,12 +6,14 @@ var toJson = function(res) {
 
 module.exports = {
     fetchShit: function(){
-        return fetch('/poops').then(toJson);
+        return fetch('/shit').then(toJson);
     },
     postShit: function(startTime){
-        return fetch('/poops', {
+        return fetch('/shit', {
             method: 'POST',
-            body: JSON.stringify(startTime),
+            body: JSON.stringify({
+                startTime: startTime
+            }),
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -43,13 +45,15 @@ module.exports = {
     },
 
     fetchMeal: function(){
-        return fetch('/eat').then(toJson);
+        return fetch('/meal').then(toJson);
     },
 
     postMeal: function(startTime){
-        return fetch('/eat', {
+        return fetch('/meal', {
             method: 'POST',
-            body: JSON.stringify(startTime),
+            body: JSON.stringify({
+                startTime: startTime
+            }),
             headers: {
                 'Content-Type': 'application/json'
             }

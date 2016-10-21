@@ -1,5 +1,5 @@
 var React = require('react');
-var moment = require('momentjs');
+var moment = require('moment');
 var restService = require('./RestService');
 
 var ShitColumn = React.createClass({
@@ -32,7 +32,7 @@ var ShitColumn = React.createClass({
             return <div className="data-container--element"> {shit.date} - {shit.hours} </div>;
         });
         return <div className="data-container--column poop">
-            <h3> Shit </h3>
+            <h3> Bæsj </h3>
             {shitRows}
         </div>
     }

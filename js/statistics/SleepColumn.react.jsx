@@ -1,5 +1,5 @@
 var React = require('react');
-var moment = require('momentjs');
+var moment = require('moment');
 var restService = require('./RestService');
 
 var SleepColumns = React.createClass({
@@ -34,7 +34,7 @@ var SleepColumns = React.createClass({
             return <div className="data-container--element"> {sleep.startDate} - {sleep.startHours} til {sleep.endDate} - {sleep.endHours}</div>;
         });
         return <div className="data-container--column sleep">
-            <h3> Sleep </h3>
+            <h3> Søvn </h3>
             {sleepRows}
         </div>
     }

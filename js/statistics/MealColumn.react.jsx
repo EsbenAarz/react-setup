@@ -1,5 +1,5 @@
 var React = require('react');
-var moment = require('momentjs');
+var moment = require('moment');
 var restService = require('./RestService');
 
 var MealColumn = React.createClass({
@@ -32,7 +32,7 @@ var MealColumn = React.createClass({
             return <div className="data-container--element"> {meal.date} - {meal.hours} </div>;
         });
         return <div className="data-container--column meals">
-            <h3> Meals </h3>
+            <h3> Spist </h3>
             {mealRows}
         </div>
     }

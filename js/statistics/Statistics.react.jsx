@@ -1,13 +1,13 @@
 var React = require('react');
-var PoopForm = require('./PoopForm.react');
-var EatForm = require('./EatForm.react');
+var ShitForm = require('./ShitForm.react');
+var MealForm = require('./MealForm.react');
 var SleepForm = require('./SleepForm.react');
 var DataContainer = require('./Data.react');
 module.exports = React.createClass({
     render: function() {
         return <div>
-                <PoopForm/>
-                <EatForm/>
+                <ShitForm/>
+                <MealForm/>
                 <SleepForm/>
                 <DataContainer/>
             </div>

@@ -1,4 +1,4 @@
-var moment = require('momentjs');
+var moment = require('moment');
 module.exports = function(e) {
     var time = e.target.value;
     var minutes = time.split(':')[1];

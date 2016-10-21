@@ -1,5 +1,5 @@
 var React = require('react');
-var moment = require('momentjs');
+var moment = require('moment');
 var getTimestamp = require('./get-timestamp');
 var restService = require('./RestService');
 
@@ -11,6 +11,8 @@ module.exports = React.createClass({
     },
 
     onSubmit: function(e){
+        e.preventDefault();
+        console.log('Posting a meal. ' + this.state.startTime);
         restService.postMeal(this.state.startTime);
     },
 

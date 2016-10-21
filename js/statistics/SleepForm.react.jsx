@@ -1,5 +1,5 @@
 var React = require('react');
-var moment = require('momentjs');
+var moment = require('moment');
 var getTimestamp = require('./get-timestamp');
 var restService = require('./RestService');
 
@@ -12,7 +12,13 @@ module.exports = React.createClass({
     },
     onSubmit: function(e){
         e.preventDefault();
-        restService.postSleep(this.state.startTime, this.state.endTime);
+        var startTime = this.state.startTime;
+        var endTime = this.state.endTime;
+        if (startTime > endTime) {
+            startTime = startTime.subtract(1, "day");
+        }
+        console.log(startTime, endTime);
+        restService.postSleep(startTime, endTime);
     },
     onStartTimeChanged: function(e){
         var that = this;
@@ -29,7 +35,7 @@ module.exports = React.createClass({
 
     render: function(){
         return <div className="register">
-            <h2>Har han/hun sovet?</h2>
+            <h2>Har han sovet?</h2>
             <form className="register-form">
                 <div className="form-group">
                     <label for="sleepy-start-time">Når begynte søvnen?</label>

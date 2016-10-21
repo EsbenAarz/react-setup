@@ -46,9 +46,9 @@ var databaseResponseHandler = function(err, result) {
   }
 };
 
-app.get('/poops', function (request, response) {
+app.get('/shit', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM poop', function(err, result) {
+    client.query('SELECT * FROM poop order by start_time desc limit 10', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {
@@ -60,9 +60,10 @@ app.get('/poops', function (request, response) {
   });
 });
 
-app.post('/poops', function (request, response) {
-    console.log('POST Received to poops: ' + request.body._date);
-    var startTime = request.body._date;
+app.post('/shit', function (request, response) {
+    console.log('Adding shit. Request-body:');
+    console.log(JSON.stringify(request.body));
+    var startTime = request.body.startTime;
     pg.connect(process.env.DATABASE_URL, function(err, client, done) {
         client.query('INSERT INTO poop ("start_time") VALUES (\'' + startTime + '\')', function(err, result){
             if (err) {
@@ -75,9 +76,9 @@ app.post('/poops', function (request, response) {
     });
 });
 
-app.get('/eat', function (request, response) {
+app.get('/meal', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM eat', function(err, result) {
+    client.query('SELECT * FROM eat order by start_time desc limit 10', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {
@@ -89,10 +90,10 @@ app.get('/eat', function (request, response) {
   });
 });
 
-app.post('/eat', function (request, response) {
+app.post('/meal', function (request, response) {
+    console.log('Adding meal. Request-body:');
     console.log(JSON.stringify(request.body));
-    console.log('POST Received to eat: ' + request.body._date);
-    var startTime = request.body._date;
+    var startTime = request.body.startTime;
     pg.connect(process.env.DATABASE_URL, function(err, client, done) {
         client.query('INSERT INTO eat ("start_time") VALUES (\'' + startTime + '\')', function(err, result){
             if (err) {
@@ -107,7 +108,7 @@ app.post('/eat', function (request, response) {
 
 app.get('/sleep', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM sleep', function(err, result) {
+    client.query('SELECT * FROM sleep order by start_time desc limit 10', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {
@@ -120,9 +121,10 @@ app.get('/sleep', function (request, response) {
 });
 
 app.post('/sleep', function (request, response) {
+    console.log('Adding sleep. Request-body:');
     console.log(JSON.stringify(request.body));
-    var startTime = request.body.startTime._date;
-    var endTime = request.body.endTime._date;
+    var startTime = request.body.startTime;
+    var endTime = request.body.endTime;
     pg.connect(process.env.DATABASE_URL, function(err, client, done) {
         client.query('INSERT INTO sleep ("start_time", "end_time") VALUES (\'' + startTime + '\', \'' + endTime + '\')', function(err, result){
             if (err) {

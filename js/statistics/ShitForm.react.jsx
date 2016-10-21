@@ -1,6 +1,6 @@
 var React = require('react');
 var getTimestamp = require('./get-timestamp');
-var moment = require('momentjs');
+var moment = require('moment');
 require('whatwg-fetch');
 var restService = require('./RestService');
 
@@ -21,10 +21,10 @@ module.exports = React.createClass({
     },
     render: function(){
         return <div className="register">
-            <h2>Har han/hun bæsja?</h2>
+            <h2>Har han bæsja?</h2>
             <form className="register-form">
                 <div className="form-group">
-                    <label for="poop-time">Når smalt bomben?</label>
+                    <label for="poop-time">Når?</label>
                     <input id="poop-time" type="time" value={this.state.startTime.format('HH:mm')} onChange={this.onStartTimeChanged}/>
                 </div>
                 <div className="form-group">

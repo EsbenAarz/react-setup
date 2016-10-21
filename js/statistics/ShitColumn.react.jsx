@@ -25,7 +25,7 @@ var ShitColumn = React.createClass({
     render: function(){
         var shitRows = this.state.poops.map(function(shit){
             return {
-                date: moment(shit.start_time).format('DD.MM-YYYY'),
+                date: moment(shit.start_time).format('DD.MM'),
                 hours: moment(shit.start_time).format('HH:mm')
             }
         }).map(function(shit) {

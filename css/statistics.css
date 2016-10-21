@@ -1,9 +1,4 @@
 .statistics {
-    position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -11,9 +6,28 @@
 }
 
 .statistics .register {
-    display: block;
-    width: 100%;
-    margin: 40px 0;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1a1a1a;
+    color: #c6c8ca;
+    width: calc(33.33% - 80px);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    height: 215px;
+}
+
+@media(max-width: 650px) {
+    .statistics .register {
+        width: calc(100% - 80px);
+        height: auto;
+    }
+}
+
+.statistics h2 {
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #df565b;
 }
 
 .register-form {
@@ -25,22 +39,35 @@
     margin: 10px 0;
 }
 
+.form-group label {
+    display: block;
+}
+
 .data-container {
-    width: 100%;
+    width: calc(100% - 80px);
+    border-radius: 5px;
     display: inline-block;
-    border: 1px solid black;
+    color: #c8c8ca;
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px;
+}
+
+.data-container h3 {
+    margin: 0 0 15px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #df565b;
 }
 
 .data-container--column {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    margin: 20px;
 }
 
 @media(min-width: 560px) {
     .data-container--column {
-        width: 25%;
+        width: 33%;
     }
 }
 
@@ -48,6 +75,34 @@
     margin: 5px 0;
 }
 
-input[type="submit"] {
+input[type="submit"],
+input[type="time"] {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 7px;
+    width: 100%;
+    text-align: center;
+}
+input[type="time"] {
+    border: none;
+    padding: 5px 0;
+}
 
+input[type="submit"] {
+  background-color: #FD5158;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 5px 10px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: inset 0 0 100px 20px rgba(0,0,0,.2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input::-webkit-clear-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }

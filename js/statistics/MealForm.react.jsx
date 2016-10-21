@@ -24,7 +24,7 @@ module.exports = React.createClass({
 
     render: function(){
         return <div className="register">
-                <h2>Har han/hun spist?</h2>
+                <h2>Spist?</h2>
                 <form className="register-form">
                     <div className="form-group">
                         <label for="eat-time">Når ble maten fortært?</label>

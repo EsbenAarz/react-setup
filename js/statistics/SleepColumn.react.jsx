@@ -25,9 +25,9 @@ var SleepColumns = React.createClass({
     render: function(){
         var sleepRows = this.state.sleeps.map(function(sleep){
             return {
-                startDate: moment(sleep.start_time).format('DD.MM-YYYY'),
+                startDate: moment(sleep.start_time).format('DD.MM'),
                 startHours: moment(sleep.start_time).format('HH:mm'),
-                endDate: moment(sleep.end_time).format('DD.MM-YYYY'),
+                endDate: moment(sleep.end_time).format('DD.MM'),
                 endHours: moment(sleep.end_time).format('HH:mm')
             }
         }).map(function(sleep) {

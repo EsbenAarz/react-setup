@@ -25,7 +25,7 @@ var MealColumn = React.createClass({
     render: function(){
         var mealRows = this.state.meals.map(function(meal){
             return {
-                date: moment(meal.start_time).format('DD.MM-YYYY'),
+                date: moment(meal.start_time).format('DD.MM'),
                 hours: moment(meal.start_time).format('HH:mm')
             }
         }).map(function(meal) {

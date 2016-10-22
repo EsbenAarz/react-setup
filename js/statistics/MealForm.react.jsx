@@ -27,7 +27,7 @@ module.exports = React.createClass({
                 <h2>Spist?</h2>
                 <form className="register-form">
                     <div className="form-group">
-                        <label for="eat-time">Når ble maten fortært?</label>
+                        <label htmlFor="eat-time">Når ble maten fortært?</label>
                         <input id="eat-time" type="time"
                             value = {this.state.startTime.format('HH:mm')}
                             onChange={this.onStartTimeChanged}/>

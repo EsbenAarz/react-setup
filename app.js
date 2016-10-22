@@ -48,7 +48,7 @@ var databaseResponseHandler = function(err, result) {
 
 app.get('/shit', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM poop order by start_time desc limit 10', function(err, result) {
+    client.query('SELECT * FROM poop order by start_time asc', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {
@@ -78,7 +78,7 @@ app.post('/shit', function (request, response) {
 
 app.get('/meal', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM eat order by start_time desc limit 10', function(err, result) {
+    client.query('SELECT * FROM eat order by start_time asc', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {
@@ -108,7 +108,7 @@ app.post('/meal', function (request, response) {
 
 app.get('/sleep', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM sleep order by start_time desc limit 10', function(err, result) {
+    client.query('SELECT * FROM sleep', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {

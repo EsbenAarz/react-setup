@@ -1,8 +1,9 @@
 .statistics {
-	background-size: cover;
+    background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
     background-image: url('/assets/barn.jpg');
+    background-attachment: fixed;
 }
 
 .statistics .register {
@@ -105,4 +106,8 @@ input::-webkit-clear-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+canvas {
+    background-color: rgba(198, 200, 202, 0.2);
 }

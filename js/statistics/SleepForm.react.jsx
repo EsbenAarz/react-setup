@@ -38,14 +38,14 @@ module.exports = React.createClass({
             <h2>Sovet?</h2>
             <form className="register-form">
                 <div className="form-group">
-                    <label for="sleepy-start-time">Når begynte søvnen?</label>
+                    <label htmlFor="sleepy-start-time">Når begynte søvnen?</label>
                     <input id="sleepy-start-time"
                             type="time"
                             value={this.state.startTime.format('HH:mm')}
                             onChange={this.onStartTimeChanged}/>
                 </div>
                 <div className="form-group">
-                    <label for="sleepy-end-time">Når endte søvnen?</label>
+                    <label htmlFor="sleepy-end-time">Når endte søvnen?</label>
                     <input id="sleepy-end-time"
                             type="time" value={this.state.endTime.format('HH:mm')}
                             onChange={this.onEndTimeChanged}/>

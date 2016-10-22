@@ -13,7 +13,7 @@ var SleepColumns = React.createClass({
         var that = this;
         restService.fetchSleep().then(function(sleeps){
             that.setState({
-                sleeps: sleeps
+                sleeps: sleeps.reverse()
             });
         });
     },

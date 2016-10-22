@@ -13,7 +13,7 @@ var MealColumn = React.createClass({
         var that = this;
         restService.fetchMeal().then(function(meals){
             that.setState({
-                meals: meals
+                meals: meals.reverse()
             });
         });
     },

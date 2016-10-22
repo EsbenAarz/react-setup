@@ -30,7 +30,7 @@ module.exports = React.createClass({
     componentDidMount: function(){
         var that = this;
         restService.fetchSleep().then(function(sleeps){
-
+            
         });
     },
     render: function(){

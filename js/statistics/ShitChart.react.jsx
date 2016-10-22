@@ -7,7 +7,7 @@ var ChartOptions = require('./ChartOptions');
 module.exports = React.createClass({
     getInitialState: function(){
         return {
-            data: ChartOptions.data,
+            data: ChartOptions.data("Antall ganger bæsjet"),
             options: ChartOptions.options
         };
     },

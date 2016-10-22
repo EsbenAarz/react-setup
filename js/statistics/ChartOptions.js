@@ -1,16 +1,18 @@
-var data = {
-    labels: [],
-    datasets: [
-        {
-            label: "Mengde bæsj",
-            data: [],
-            fill: true,
-            lineTension: 0.1,
-            backgroundColor: "#1a1a1a",
-            borderColor: "#1a1a1a",
-            scaleFontColor: "#1a1a1a"
-        }
-    ]
+var data = function(label){
+    return {
+        labels: [],
+        datasets: [
+            {
+                label: label,
+                data: [],
+                fill: true,
+                lineTension: 0.1,
+                backgroundColor: "#1a1a1a",
+                borderColor: "#1a1a1a",
+                scaleFontColor: "#1a1a1a"
+            }
+        ]
+    }
 }
 
 var defaultFontOptions = {

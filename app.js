@@ -108,7 +108,7 @@ app.post('/meal', function (request, response) {
 
 app.get('/sleep', function (request, response) {
   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM sleep', function(err, result) {
+    client.query('SELECT * FROM sleep order by start_time asc', function(err, result) {
       done();
       if (err) { console.error(err); response.send("Error " + err); }
       else {

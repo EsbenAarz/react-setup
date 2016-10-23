@@ -29,13 +29,17 @@ module.exports = React.createClass({
     componentDidMount: function(){
         var that = this;
         restService.fetchSleep().then(function(sleeps){
+            if (!sleeps.length > 0) {
+                return;
+            }
             var startedTrackingAt = moment(sleeps[0].start_time);
             var now = new moment();
             var timePassedSinceTrackStarted = now.diff(startedTrackingAt);
+            console.log(timePassedSinceTrackStarted);
             var sleepTime = sleeps.reduce(function(currentValue, nap) {
                 var startTime = moment(nap.start_time);
                 var endTime = moment(nap.end_time);
-                return endTime.diff(startTime);
+                return currentValue + endTime.diff(startTime);
             }, 0);
             var data = that.state.data;
             data.datasets[0].data = [sleepTime, timePassedSinceTrackStarted - sleepTime];

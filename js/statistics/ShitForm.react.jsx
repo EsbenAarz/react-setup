@@ -3,11 +3,14 @@ var getTimestamp = require('./get-timestamp');
 var moment = require('moment');
 require('whatwg-fetch');
 var restService = require('./RestService');
+var SubmitButton = require('./SubmitButton.react');
 
 module.exports = React.createClass({
     getInitialState: function(){
         return {
-            startTime : new moment()
+            startTime : new moment(),
+            helperMessage: '',
+            timeout: null
         }
     },
     onStartTimeChanged: function(e){
@@ -17,8 +20,34 @@ module.exports = React.createClass({
     },
     onSubmit: function(e){
         e.preventDefault();
-        restService.postShit(this.state.startTime);
+        var that = this;
+        restService.postShit(this.state.startTime).then(function(res) {
+            if (res.status === 204) {
+                console.log('Posted a shit');
+                that.setHelperMessage('Registrerte en bæsj');
+            } else {
+                that.setHelperMessage('Registrering feilet. Feilkode: ' + res.status);
+            }
+            return res;
+        });
     },
+
+    setHelperMessage: function(message){
+        var that = this;
+        that.setState({
+            helperMessage: message,
+            timeout: setTimeout(function(){
+                that.setState({
+                    helperMessage: ''
+                })
+            }, 3000)
+        });
+    },
+
+    componentWillUnmount: function(){
+        clearTimeout(this.state.timeout);
+    },
+
     render: function(){
         return <div className="register">
             <h2>Bæsja?</h2>
@@ -27,9 +56,7 @@ module.exports = React.createClass({
                     <label htmlFor="poop-time">Når?</label>
                     <input id="poop-time" type="time" value={this.state.startTime.format('HH:mm')} onChange={this.onStartTimeChanged}/>
                 </div>
-                <div className="form-group">
-                    <input type="submit" value="Send" onClick={this.onSubmit}/>
-                </div>
+                <SubmitButton onSubmit={this.onSubmit} helperMessage={this.state.helperMessage}/>
             </form>
         </div>
     }

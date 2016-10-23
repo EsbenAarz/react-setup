@@ -17,10 +17,6 @@ module.exports = {
             headers: {
                 'Content-Type': 'application/json'
             }
-        }).then(function(res) {
-            if (res.status === 204) {
-                console.log('Posted a shit');
-            }
         });
     },
 
@@ -37,10 +33,6 @@ module.exports = {
             headers: {
                 'Content-Type': 'application/json'
             }
-        }).then(function(res) {
-            if (res.status === 204) {
-                console.log('Posted a sleep');
-            }
         });
     },
 
@@ -56,10 +48,6 @@ module.exports = {
             }),
             headers: {
                 'Content-Type': 'application/json'
-            }
-        }).then(function(res) {
-            if (res.status === 204) {
-                console.log('Posted a meal');
             }
         });
     }

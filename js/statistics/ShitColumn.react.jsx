@@ -13,7 +13,7 @@ var ShitColumn = React.createClass({
         var that = this;
         restService.fetchShit().then(function(poops){
             that.setState({
-                poops: poops.reverse()
+                poops: poops.reverse().slice(0, 20)
             });
         });
     },
